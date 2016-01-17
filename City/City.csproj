@@ -61,12 +61,15 @@
     <Compile Include="Core\Commands\CommandBase.cs" />
     <Compile Include="Core\Commands\Create.cs" />
     <Compile Include="Core\Commands\Exit.cs" />
+    <Compile Include="Core\Commands\Populate.cs" />
     <Compile Include="Core\Commands\Status.cs" />
     <Compile Include="Core\Factories\BuildingFactory.cs" />
     <Compile Include="Core\Factories\CommandFactory.cs" />
     <Compile Include="Exceptions\BuildingNotImplementedExcepton.cs" />
     <Compile Include="Exceptions\CityException.cs" />
     <Compile Include="Exceptions\CommandNotImplementedExcepton.cs" />
+    <Compile Include="Exceptions\NotEnoughBuildingCapacity.cs" />
+    <Compile Include="Exceptions\NotEnoughCityCapacity.cs" />
     <Compile Include="IO\ConsoleRenderer.cs" />
     <Compile Include="IO\ConsoleWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

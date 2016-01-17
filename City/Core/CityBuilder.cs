@@ -40,6 +40,14 @@
                 {
                     this.Writer.Print(ex.Message);
                 }
+                catch (NotEnoughCityCapacity ex)
+                {
+                    this.Writer.Print(ex.Message);
+                }
+                catch (InvalidOperationException ex)
+                {
+                    this.Writer.Print(ex.Message);
+                }
             }
         }
 

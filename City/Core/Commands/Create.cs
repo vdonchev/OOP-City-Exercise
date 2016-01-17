@@ -1,6 +1,5 @@
 ﻿namespace City.Core.Commands
 {
-    using System;
     using Attributes;
     using Contracts;
     using Exceptions;

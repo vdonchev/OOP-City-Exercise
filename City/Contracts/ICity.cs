@@ -7,5 +7,11 @@
         IEnumerable<IBuilding> Buildings { get; }
 
         void AddBuilding(IBuilding building);
+
+        int TotalCapacity { get; }
+
+        int OccupiedCapacity { get; }
+
+        int FreeCapacity { get; }
     }
 }
